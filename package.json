@@ -1,0 +1,30 @@
+{
+  "name": "aife",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html",
+    "lint": "tslint 'src/**/*.ts'"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.0",
+    "typescript": "^3.6.4",
+    "vue-property-decorator": "^8.2.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "@types/socket.io": "^2.1.4",
+    "@types/socket.io-client": "^1.4.32",
+    "server": "https://github.com/aifedespaix/aife-server.git",
+    "socket.io": "^2.3.0",
+    "three": "^0.109.0",
+    "tslint": "^5.20.0",
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.1.0",
+    "vue-hot-reload-api": "^2.3.4",
+    "vuex": "^3.1.1"
+  }
+}
